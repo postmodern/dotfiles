@@ -10,7 +10,7 @@ fi
 export HISTFILE=/dev/null
 export HISTFILESIZE=0
 
-export PATH="$PATH:$HOME/bin"
+export PATH="$PATH:$HOME/bin:$HOME/src/rubinius/bin"
 export EDITOR="vim"
 export BROWSER="firefox"
 
