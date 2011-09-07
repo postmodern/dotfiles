@@ -2,11 +2,11 @@
   [Position]	(CENTER)	{0 0}
   [Layer]	{2}
 [end]
-[app] (name=.*[Tt]erm.*) (role=HUD)
+[app] (role=HUD)
   [Deco]	{BORDER}
   [Alpha]	{220}
-  [Position]	(CENTER)	{0 0}
-  [Dimensions]	{900 600}
+  [Position]	(TOPLEFT)	{0 0}
+  [Maximized]	{horz}
   [Layer]	{TOP}
 [end]
 [app] (name=.*[Tt]erm.*)
