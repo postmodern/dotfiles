@@ -62,7 +62,7 @@ session.appsFile:	~/.fluxbox/apps
 session.autoRaiseDelay:	250
 session.cacheLife:	5
 session.doubleClickInterval:	250
-session.styleFile:	~/.fluxbox/styles/Dyne
+session.styleFile:	/home/hal/.fluxbox/styles/Dyne
 session.configVersion:	13
 session.ignoreBorder:	false
 session.cacheMax:	200
