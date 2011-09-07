@@ -1,0 +1,30 @@
+[app] (name=fbrun)
+  [Position]	(CENTER)	{0 0}
+  [Layer]	{2}
+[end]
+[app] (name=.*[Tt]erm.*) (role=HUD)
+  [Deco]	{BORDER}
+  [Alpha]	{220}
+  [Position]	(CENTER)	{0 0}
+  [Dimensions]	{900 600}
+  [Layer]	{TOP}
+[end]
+[app] (name=.*[Tt]erm.*)
+  [Dimensions]	{744 453}
+  [Position]	(UPPERLEFT)	{32 266}
+[end]
+[group]
+  [app] (role=conversation)
+  [Sticky]	{yes}
+  [Position]	(TOPRIGHT)	{0 0}
+  [Alpha]	{255 190}
+[end]
+[group]
+  [app] (role=buddy_list)
+  [Dimensions]	{277 527}
+  [Position]	(UPPERLEFT)	{1087 221}
+[end]
+[group]
+  [app] (name=.*vim.*)
+  [Dimensions]	{660 733}
+[end]
