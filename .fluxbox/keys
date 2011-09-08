@@ -93,7 +93,7 @@ Mod1 Delete :SetAlpha -10
 # open the window menu
 Mod1 space :WindowMenu
 
-Control Mod1 i :Exec gnome-terminal --role=HUD -- irb
+Control Mod1 i :Exec gnome-terminal --role=HUD -- ripl
 
 # open a terminal
 Control Mod1 t :Exec gnome-terminal
