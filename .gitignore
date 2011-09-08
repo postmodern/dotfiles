@@ -1,7 +1,7 @@
 #
 # [ Install ]
 #
-#   $ git config --add core.excludesfile ~/.gitignore
+#   $ git config --global --add core.excludesfile ~/.gitignore
 #
 
 # System files
