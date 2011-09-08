@@ -111,7 +111,7 @@ Control Mod1 b :Exec firefox
 Control Mod1 f :Exec nautilus --no-desktop
 
 # lock the screen
-Control Mod1 l :Exec xlock -mode blank
+Control Mod1 l :Exec gnome-screensaver-command --lock
 
 # exit fluxbox
 Control Mod1 Delete :Exit
