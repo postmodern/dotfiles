@@ -18,6 +18,11 @@ xmodmap "/home/hal/.Xmodmap"
 # And last but not least we start fluxbox.
 # Because it is the last app you have to run it with ''exec'' before it.
 
+# Synaptic Touchpad
+# synclient VertEdgeScroll=1
+# synclient HorizEdgeScroll=1
+# synclient TapButton1=1
+
 xcompmgr -c &
 nitrogen --restore
 
