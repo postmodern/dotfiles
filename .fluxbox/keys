@@ -79,13 +79,13 @@ Mod1 F4 :Close
 Mod1 F5 :Kill
 Mod1 F11 :Fullscreen
 
-Mod1 Left :MoveTo 0 * Left
-Mod1 Right :MoveTo 0 * Right
-Mod1 Up :MoveTo * 0 Top
-Mod1 Down :MoveTo * 0 Bottom
-Mod1 Return :MoveTo 0 0 Center
-Mod1 Prior :MaximizeVertical
-Mod1 Next :MaximizeHorizontal
+Shift Mod1 Left :MoveTo 0 * Left
+Shift Mod1 Right :MoveTo 0 * Right
+Shift Mod1 Up :MoveTo * 0 Top
+Shift Mod1 Down :MoveTo * 0 Bottom
+Shift Mod1 Return :MoveTo 0 0 Center
+Shift Mod1 Prior :MaximizeVertical
+Shift Mod1 Next :MaximizeHorizontal
 
 Mod1 Home :SetAlpha +10
 Mod1 Delete :SetAlpha -10
