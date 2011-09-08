@@ -9,7 +9,7 @@
   [Maximized]	{horz}
   [Layer]	{TOP}
 [end]
-[app] (name=.*[Tt]erm.*)
+[app] (class=.*[Tt]erm.*)
   [Dimensions]	{744 453}
   [Position]	(UPPERLEFT)	{32 266}
 [end]
@@ -26,6 +26,6 @@
   [Alpha]	{255 190}
 [end]
 [group]
-  [app] (name=.*vim.*)
+  [app] (class=.*vim)
   [Dimensions]	{660 733}
 [end]
