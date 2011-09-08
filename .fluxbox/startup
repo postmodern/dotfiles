@@ -19,17 +19,20 @@ xmodmap "/home/hal/.Xmodmap"
 # Because it is the last app you have to run it with ''exec'' before it.
 
 # Synaptic Touchpad
-# synclient VertEdgeScroll=1
-# synclient HorizEdgeScroll=1
-# synclient TapButton1=1
+if [[ -x /usr/bin/synclient ]]; then
+  synclient VertEdgeScroll=1
+  # synclient HorizEdgeScroll=1
+  synclient TapButton1=1
+fi
 
 xcompmgr -c &
-nitrogen --restore
+nitrogen --restore &
+gnome-screensaver &
 
 nm-applet &
 gnome-sound-applet &
-gnome-power-manager &
-gnome-screensaver &
+
+[[ -x /usr/bin/gnome-power-manager ]] && (gnome-power-manager &)
 
 exec fluxbox
 # or if you want to keep a log:
