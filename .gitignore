@@ -1,0 +1,29 @@
+#
+# [ Install ]
+#
+#   $ git config --add core.excludesfile ~/.gitignore
+#
+
+# System files
+.DS_Store
+lost+found/
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Compiler artifacts
+*.o
+*.a
+*.so
+*.rbc
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+
+# Editor backup files
+*~
+*.bak
+.*.sw*
