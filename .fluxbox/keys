@@ -93,7 +93,7 @@ Shift Mod1 Return :MoveTo 0 0 Center
 # open the window menu
 Mod1 space :WindowMenu
 
-Control Mod1 i :Exec gnome-terminal --role=HUD -- ripl
+Control Mod1 i :Exec gnome-terminal --role=HUD --title=Ruby -- ripl
 
 # open a terminal
 Control Mod1 t :Exec gnome-terminal
