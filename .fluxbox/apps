@@ -25,7 +25,7 @@
   [Position]	(UPPERLEFT)	{1087 221}
   [Alpha]	{255 190}
 [end]
-[group]
+[group] (workspace=[current])
   [app] (class=.*vim)
   [Dimensions]	{660 733}
 [end]
