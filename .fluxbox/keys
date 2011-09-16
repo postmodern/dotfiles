@@ -22,8 +22,8 @@ OnRightGrip Move1 :StartResizing bottomright
 # alt + middle click to lower the window
 OnWindow Mod1 Mouse2 :Lower
 
-# control-click a window's titlebar and drag to attach windows
-OnTitlebar Control Mouse1 :StartTabbing
+# meta-click a window's titlebar and drag to attach windows
+OnTitlebar Mod4 Mouse1 :StartTabbing
 
 # double click on the titlebar to shade
 OnTitlebar Double Mouse1 :Shade
