@@ -2,7 +2,8 @@
   [Position]	(CENTER)	{0 0}
   [Layer]	{2}
 [end]
-[app] (role=HUD)
+[group] (workspace=[current])
+  [app] 	(role=HUD)
   [Deco]	{BORDER}
   [Alpha]	{220}
   [Position]	(TOPLEFT)	{0 0}
@@ -14,13 +15,13 @@
   [Position]	(UPPERLEFT)	{32 266}
 [end]
 [group]
-  [app] (role=conversation)
+  [app] 	(role=conversation)
   [Sticky]	{yes}
   [Position]	(TOPRIGHT)	{0 0}
   [Alpha]	{255 190}
 [end]
 [group]
-  [app] (role=buddy_list)
+  [app] 	(role=buddy_list)
   [Dimensions]	{277 527}
   [Position]	(UPPERLEFT)	{1087 221}
   [Alpha]	{255 190}
