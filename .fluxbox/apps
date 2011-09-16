@@ -4,11 +4,11 @@
 [end]
 [group] (workspace=[current])
   [app] 	(role=HUD)
-  [Deco]	{BORDER}
-  [Alpha]	{220}
+  [Deco]	{Border}
+  [Alpha]	{220 150}
   [Position]	(TOPLEFT)	{0 0}
   [Maximized]	{horz}
-  [Layer]	{TOP}
+  [Layer]	{Normal}
 [end]
 [app] (class=.*[Tt]erm.*)
   [Dimensions]	{744 453}
