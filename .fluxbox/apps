@@ -28,5 +28,6 @@
 [end]
 [group] (workspace=[current])
   [app] (class=.*vim)
+  [Position]	(UPPERRIGHT)	{0 0}
   [Maximized]	{vert}
 [end]
