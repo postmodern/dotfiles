@@ -28,5 +28,5 @@
 [end]
 [group] (workspace=[current])
   [app] (class=.*vim)
-  [Dimensions]	{660 733}
+  [Maximized]	{vert}
 [end]
