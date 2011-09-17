@@ -12,7 +12,7 @@
 [end]
 [app] (class=.*[Tt]erm.*)
   [Dimensions]	{744 453}
-  [Position]	(UPPERLEFT)	{32 266}
+  [Position]	(BottomLeft)	{32 32}
 [end]
 [group]
   [app] 	(role=conversation)
