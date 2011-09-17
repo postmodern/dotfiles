@@ -23,7 +23,7 @@
 [group]
   [app] 	(role=buddy_list)
   [Dimensions]	{277 527}
-  [Position]	(UPPERLEFT)	{1087 221}
+  [Position]	(BOTTOMRIGHT)	{0 0}
   [Alpha]	{255 190}
 [end]
 [group] (workspace=[current])
