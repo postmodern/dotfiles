@@ -2,32 +2,33 @@
   [Position]	(CENTER)	{0 0}
   [Layer]	{2}
 [end]
-[group] (workspace=[current])
-  [app] 	(role=HUD)
-  [Deco]	{Border}
-  [Alpha]	{220 150}
-  [Position]	(TOPLEFT)	{0 0}
+[group]  (workspace=[current])
+ [app] (role=HUD)
+  [Position]	(UPPERLEFT)	{0 0}
+  [Deco]	{BORDER}
   [Maximized]	{horz}
-  [Layer]	{Normal}
+  [Layer]	{8}
+  [Alpha]	{220 150}
 [end]
 [app] (class=.*[Tt]erm.*)
   [Dimensions]	{744 453}
-  [Position]	(BottomLeft)	{32 32}
+  [Position]	(LOWERLEFT)	{32 32}
 [end]
-[group]
-  [app] 	(role=conversation)
+[group]  (workspace=[current])
+ [app] (role=conversation)
+  [Position]	(UPPERRIGHT)	{0 0}
   [Sticky]	{yes}
-  [Position]	(TOPRIGHT)	{0 0}
   [Alpha]	{255 190}
 [end]
-[group]
-  [app] 	(role=buddy_list)
+[group]  (workspace=[current])
+ [app] (role=buddy_list)
   [Dimensions]	{277 527}
-  [Position]	(BOTTOMRIGHT)	{0 0}
+  [Position]	(LOWERRIGHT)	{0 0}
   [Alpha]	{255 190}
 [end]
-[group] (workspace=[current])
-  [app] (class=.*vim)
+[group]  (workspace=[current])
+ [app] (class=.*vim)
+  [Dimensions]	{692 750}
   [Position]	(UPPERRIGHT)	{0 0}
   [Maximized]	{vert}
 [end]
