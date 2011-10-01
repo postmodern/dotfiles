@@ -25,10 +25,10 @@
 #   synclient TapButton1=1
 # fi
 
-xcompmgr -c &
-nitrogen --restore &
-gnome-screensaver &
+[[ -x /usr/bin/xcompmgr ]] && (xcompmgr -c &)
+[[ -x /usr/bin/nigrogen ]] && (nitrogen --restore &)
 
+gnome-screensaver &
 nm-applet &
 gnome-sound-applet &
 
