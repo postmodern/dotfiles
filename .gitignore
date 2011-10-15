@@ -18,6 +18,7 @@ lost+found/
 *.a
 *.so
 *.rbc
+.rbx
 
 # CMake
 CMakeFiles/
