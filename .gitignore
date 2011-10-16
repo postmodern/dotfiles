@@ -25,9 +25,10 @@ lost+found/
 *.tar.bz2
 *.gem
 
-# CMake
+# Project files
 CMakeFiles/
 CMakeCache.txt
+.bundle
 
 # Editor backup files
 *~
