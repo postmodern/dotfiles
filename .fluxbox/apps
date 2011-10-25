@@ -1,5 +1,6 @@
 [app] (name=fbrun)
   [Position]	(CENTER)	{0 0}
+  [Deco]	{BORDER}
   [Layer]	{2}
 [end]
 [group]  (workspace=[current])

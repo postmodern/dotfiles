@@ -106,7 +106,7 @@ Control Mod1 r :Exec gnome-terminal --role=HUD --title=Ruby -- ripl
 Control Mod1 t :Exec gnome-terminal
 
 # open a dialog to run programs
-Control Mod1 a :Exec fbrun
+Control Mod1 a :Exec fbrun -bg black -fg gray -w 400 -h 20
 
 # open a new GVim instance
 Control Mod1 e :Exec gvim
