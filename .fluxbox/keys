@@ -93,6 +93,9 @@ Shift Mod1 Return :MoveTo 0 0 Center
 # open the window menu
 Mod1 space :WindowMenu
 
+# open a dialog to run programs
+Control Mod1 Return :Exec fbrun -bg black -fg gray -w 400 -h 20
+
 # open a JavaScript console
 Control Mod1 j :Exec gnome-terminal --role=HUD --title=JavaScript -- js
 
@@ -104,9 +107,6 @@ Control Mod1 r :Exec gnome-terminal --role=HUD --title=Ruby -- ripl
 
 # open a terminal
 Control Mod1 t :Exec gnome-terminal
-
-# open a dialog to run programs
-Control Mod1 a :Exec fbrun -bg black -fg gray -w 400 -h 20
 
 # open a new GVim instance
 Control Mod1 e :Exec gvim
