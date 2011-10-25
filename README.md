@@ -84,7 +84,10 @@
     Shift+Alt+Down         Move Window to the Bottom
     Shift+Alt+Enter        Move Window to the Center
 
-    Control+Alt+i          Spawns a Ruby HUD
+    Control+Alt+Enter      Opens the Run Dialogue
+    Control+Alt+j          Spawns a JavaScript HUD
+    Control+Alt+r          Spawns a Ruby HUD
+    Control+Alt+p          Spawns a PHP HUD
     Control+Alt+t          Spawns a new Terminal
     Control+Alt+e          Spawns a new Editor
     Control+Alt+b          Spawns a new Browser
