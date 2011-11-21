@@ -94,7 +94,7 @@ Shift Mod1 Return :MoveTo 0 0 Center
 Mod1 space :WindowMenu
 
 # open a dialog to run programs
-Control Mod1 Return :Exec fbrun -bg black -fg gray -w 400 -h 20
+Control Mod1 r :Exec fbrun -bg black -fg gray -w 400 -h 20
 
 # open a JavaScript console
 Control Mod1 j :Exec gnome-terminal --role=HUD --title=JavaScript -- js
@@ -103,7 +103,7 @@ Control Mod1 j :Exec gnome-terminal --role=HUD --title=JavaScript -- js
 Control Mod1 p :Exec gnome-terminal --role=HUD --title=PHP -- php -a
 
 # open a Ruby console
-Control Mod1 r :Exec gnome-terminal --role=HUD --title=Ruby -- ripl
+Control Mod1 i :Exec gnome-terminal --role=HUD --title=Ruby -- ripl
 
 # open a terminal
 Control Mod1 t :Exec gnome-terminal
