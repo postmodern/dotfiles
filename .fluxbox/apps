@@ -6,7 +6,7 @@
 [group]  (workspace=[current])
  [app] (role=HUD)
   [Position]	(UPPERLEFT)	{0 0}
-  [Deco]	{BORDER}
+  [Deco]	{NONE}
   [Maximized]	{horz}
   [Layer]	{8}
   [Alpha]	{220 150}
