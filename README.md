@@ -78,11 +78,16 @@
     Alt+Escape             Kill
     Alt+F11                Fullscreen
     
-    Shift+Alt+Left         Move Window to the left
+    Shift+Alt+Left         Move Window to the Left
     Shift+Alt+Right        Move Window to the Right
     Shift+Alt+Up           Move Window to the Top
     Shift+Alt+Down         Move Window to the Bottom
-    Shift+Alt+Enter        Move Window to the Center
+
+    Shift+Alt+Home         Move Window to the Top Left Corner
+    Shift+Alt+PageUp       Move Window to the Top Right Corner
+    Shift+Alt+5            Move Window to the Center
+    Shift+Alt+End          Move Window to the Bottom Left Corner
+    Shift+Alt+PageDown     Move Window to the Bottom Right Corner
 
     Control+Alt+Enter      Opens the Run Dialogue
     Control+Alt+j          Spawns a JavaScript HUD
