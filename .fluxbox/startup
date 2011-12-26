@@ -26,7 +26,7 @@
 # fi
 
 [[ -x /usr/bin/xcompmgr ]] && (xcompmgr -c &)
-[[ -x /usr/bin/nigrogen ]] && (nitrogen --restore &)
+[[ -x /usr/bin/nitrogen ]] && (nitrogen --restore &)
 
 gnome-screensaver &
 nm-applet &
