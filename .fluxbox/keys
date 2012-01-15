@@ -51,6 +51,12 @@ Mod1 e :NextWindow {groups} (class=.*vim)
 # alt-tab firefoxes
 Mod1 b :NextWindow {groups} (role=browser)
 
+# alt-tab rhythmbox
+Mod1 m :NextWindow {groups} (class=rhythmbox)
+
+# alt-tab totem or mplayer
+Mod1 v :NextWindow {groups} (class=totem) Or (class=myplayer)
+
 # cycle through tabs in the current window
 Mod4 Tab :NextTab
 Mod4 Shift Tab :PrevTab

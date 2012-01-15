@@ -70,6 +70,8 @@
     Alt+t                  Switch to the next Terminal Window
     Alt+e                  Switch to the next Editor Window
     Alt+b                  Switch to the next Browser Window
+    Alt+m                  Switch to the next Music Player Window
+    Alt+v                  Switch to the next Video Player Window
     
     Alt+Backspace          Minimize
     Alt+F1                 Maximize
