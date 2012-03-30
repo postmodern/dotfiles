@@ -24,9 +24,10 @@
 	[exec] (Thunderbird)	{thunderbird} 
 	[separator] 
 	[exec] (Pidgin)		{pidgin} 
-	[exec] (XChat)		{xchat} 
+	[exec] (XChat)		{xchat --no-plugins} 
 	[separator] 
 	[exec] (Rhythmbox)	{rhythmbox} 
+	[exec] (Transmission)	{transmission-gtk}
 	[separator] 
 [submenu] (Fluxbox)
       [config] (Configure) 
