@@ -57,6 +57,9 @@ Mod1 m :NextWindow {groups} (class=rhythmbox)
 # alt-tab totem or mplayer
 Mod1 v :NextWindow {groups} (class=totem) Or (class=MPlayer)
 
+# alt-tab HUD windows
+Mod1 h :NextWindow {groups} (role=HUD)
+
 # cycle through tabs in the current window
 Mod4 Tab :NextTab
 Mod4 Shift Tab :PrevTab
