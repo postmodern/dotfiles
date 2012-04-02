@@ -17,7 +17,7 @@
 [begin] (Fluxbox)
 [encoding] {UTF-8}
 	[exec] (Terminal)	{$TERMINAL} 
-	[exec] (Vim)		{$GUI_EDITOR}
+	[exec] (Editor)		{$GUI_EDITOR}
 	[exec] (Files)		{$FILE_MANAGER}
 	[separator] 
 	[exec] (Browser)	{$BROWSER} 
