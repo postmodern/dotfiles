@@ -12,6 +12,7 @@ export HISTFILESIZE=0
 
 export PATH="$PATH:$HOME/bin:$HOME/src/rubinius/bin"
 export EDITOR="vim"
+export GUI_EDITOR="gvim"
 export BROWSER="firefox"
 export RUBY_SHELL="irpl"
 
