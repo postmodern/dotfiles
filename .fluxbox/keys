@@ -121,7 +121,7 @@ Control Mod1 j :Exec gnome-terminal --role=HUD --title=JavaScript -- js
 Control Mod1 p :Exec gnome-terminal --role=HUD --title=PHP -- php -a
 
 # open a Ruby console
-Control Mod1 i :Exec gnome-terminal --role=HUD --title=Ruby -- sh -c 'if [[ ! -z "${RUBY_CONSOLE}" ]]; then $RUBY_CONSOLE; else irb; fi'
+Control Mod1 i :Exec gnome-terminal --role=HUD --title=Ruby -- rbi
 
 # open a terminal
 Control Mod1 t :Exec gnome-terminal
