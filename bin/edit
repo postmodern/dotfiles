@@ -10,7 +10,12 @@ if [[ $DISPLAY ]]; then
 		exit -1
 	fi
 elif tty -s; then
-	$EDITOR $*
+	if [[ $EDITOR ]]; then
+		$EDITOR $*
+	else
+		echo "Please set \$EDITOR" >&2
+		exit -1
+	fi
 else
 	echo "Cannot start an editor: not on a terminal and no DISPLAY." >&2
 	exit -1
