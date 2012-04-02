@@ -16,17 +16,17 @@
 #     session.menuFile: ~/.fluxbox/my-menu
 [begin] (Fluxbox)
 [encoding] {UTF-8}
-	[exec] (Terminal)	{gnome-terminal} 
-	[exec] (Vim)		{gvim}
-	[exec] (Files)		{nautilus --no-desktop} 
+	[exec] (Terminal)	{$TERMINAL} 
+	[exec] (Vim)		{$GUI_EDITOR}
+	[exec] (Files)		{$FILE_MANAGER}
 	[separator] 
-	[exec] (Firefox)	{firefox} 
-	[exec] (Thunderbird)	{thunderbird} 
+	[exec] (Browser)	{$BROWSER} 
+	[exec] (Email)		{$EMAIL_CLIENT} 
 	[separator] 
-	[exec] (Pidgin)		{pidgin} 
-	[exec] (XChat)		{xchat --no-plugins} 
+	[exec] (IM)		{$IM_CLIENT}
+	[exec] (IRC)		{$IRC_CLIENT}
 	[separator] 
-	[exec] (Rhythmbox)	{rhythmbox} 
+	[exec] (Music)		{$MUSIC_PLAYER}
 	[exec] (Transmission)	{transmission-gtk}
 	[separator] 
 [submenu] (Fluxbox)
