@@ -16,6 +16,8 @@
 * `$EMAIL_CLIENT` - Prefered graphical Email Client (Default: `thunderbird`).
 * `$IM_CLIENT` - Prefered graphical IM Client (Default: `pidgin`).
 * `$IRC_CLIENT` - Prefered graphical IRC Client (Default: `xchat`).
+* `$MUSIC_PLAYER` - Prefered graphical Music Player (Default: `rhythmbox`).
+* `$BIT_TORRENT_CLIENT` - Prefered graphical BitTorrent client (Default: `transmission-gtk`).
 * `$PHP_SHELL` - Spawns an interactive PHP shell (Default: `php -a`).
 * `$RUBY_SHELL` - Spawns an interactive Ruby shell (Default: `ripl`).
 * `$JS_SHELL` - Spawns an interactive JavaScript shell (Default: `js`).
@@ -30,6 +32,7 @@
 * `im` - Invokes `$IM_CLIENT`.
 * `irc` - Invokes `$IRC_CLIENT`.
 * `music` - Invokes `$MUSIC_PLAYER`.
+* `torrent` - Invokes `$BIT_TORRENT_CLIENT`.
 * `phpi` - Invokes `$PHP_SHELL`.
 * `rbi` - Invokes `$RUBY_SHELL`.
 * `js` - Invokes `$JS_SHELL`.

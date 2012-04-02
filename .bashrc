@@ -22,6 +22,7 @@ export EMAIL_CLIENT="thunderbird"
 export IM_CLIENT="pidgin"
 export IRC_CLIENT="xchat --no-plugins"
 export MUSIC_PLAYER="rhythmbox"
+export BIT_TORRENT_CLIENT="transmission-gtk"
 
 # Shell ENV variables
 export PHP_SHELL="php -a"
@@ -41,6 +42,7 @@ alias email="$EMAIL_CLIENT"
 alias im="$IM_CLIENT"
 alias irc="$IRC_CLIENT"
 alias music="$MUSIC_PLAYER"
+alias torrent="$BIT_TORRENT_CLIENT"
 
 alias phpi="$RUBY_SHELL"
 alias rbi="$RUBY_SHELL"
