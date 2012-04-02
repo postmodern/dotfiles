@@ -46,7 +46,7 @@ Mod1 Shift Tab :PrevWindow {groups} (workspace=[current])
 Mod1 t :NextWindow {groups} (class=.*[Tt]erm.*)
 
 # alt-tab gvims
-Mod1 e :NextWindow {groups} (class=.*vim)
+Mod1 e :NextWindow {groups} (class=gvim) Or (class=kvim) Or (class=xemacs) Or (class=gedit)
 
 # alt-tab firefoxes
 Mod1 b :NextWindow {groups} (role=browser)
