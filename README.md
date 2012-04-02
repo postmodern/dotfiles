@@ -2,6 +2,38 @@
 
 .files for my Development Environment.
 
+## Bash
+
+### Environment Variables
+
+* `$TERMINAL` - Prefered graphical Terminal emulator
+  (Default: `gnome-terminal`).
+* `$FILE_MANAGER` - Prefered graphical File Manager
+  (Default: `nautilus`).
+* `$EDITOR` - Prefered non-graphical Text Editor (Default: `vim`).
+* `$GUI_EDITOR` - Prefered graphical Text Editor (Default: `gvim`).
+* `$BROWSER` - Prefered graphical Browser (Default `firefox`).
+* `$EMAIL_CLIENT` - Prefered graphical Email Client (Default: `thunderbird`).
+* `$IM_CLIENT` - Prefered graphical IM Client (Default: `pidgin`).
+* `$IRC_CLIENT` - Prefered graphical IRC Client (Default: `xchat`).
+* `$PHP_SHELL` - Spawns an interactive PHP shell (Default: `php -a`).
+* `$RUBY_SHELL` - Spawns an interactive Ruby shell (Default: `ripl`).
+* `$JS_SHELL` - Spawns an interactive JavaScript shell (Default: `js`).
+
+### Aliases
+
+* `term` - Invokes `$TERMINAL`.
+* `files` - Invokes `$FILE_MANAGER`.
+* `edit` - Invokes either `$GUI_EDITOR` or `$EDITOR`.
+* `browser` - Invokes `$BROWSER`.
+* `email` - Invokes `$EMAIL_CLIENT`.
+* `im` - Invokes `$IM_CLIENT`.
+* `irc` - Invokes `$IRC_CLIENT`.
+* `music` - Invokes `$MUSIC_PLAYER`.
+* `phpi` - Invokes `$PHP_SHELL`.
+* `rbi` - Invokes `$RUBY_SHELL`.
+* `js` - Invokes `$JS_SHELL`.
+
 ## Vim
 
 * Minimal `.vimrc`.
@@ -47,23 +79,6 @@
 * [Dyne](http://box-look.org/content/show.php/Dyne?content=61999) Theme.
 
 ### Menu
-
-* Terminal:
-    `gnome-terminal`
-* Editor:
-    `gvim`
-* Files:
-    `nautilus --no-desktop`
-* Browser:
-    `firefox`
-* Email:
-    `thunderbird`
-* IM:
-    `pidgin`
-* IRC:
-    `xchat`
-* Music:
-    `rhythmbox`
 
 ### Key Bindings
 
