@@ -27,7 +27,7 @@
 	[exec] (IRC)		{$IRC_CLIENT}
 	[separator] 
 	[exec] (Music)		{$MUSIC_PLAYER}
-	[exec] (BitTorrent)	{$BIT_TORRENT_CLIENT}
+	[exec] (Torrents)	{$BIT_TORRENT_CLIENT}
 	[separator] 
 [submenu] (Fluxbox)
 	[config] (Configure) 
