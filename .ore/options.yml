@@ -1,0 +1,8 @@
+rubygems_tasks: true
+rspec:          true
+yard:           true
+markdown:       true
+
+authors:
+ - Postmodern
+email: postmodern.mod3@gmail.com
