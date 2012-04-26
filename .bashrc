@@ -26,8 +26,8 @@ export BIT_TORRENT_CLIENT="transmission-gtk"
 
 # Shell ENV variables
 export PHP_SHELL="php -a"
-export RUBY_SHELL="ripl"
 export JS_SHELL="js"
+export RUBYCONSOLE="ripl"
 
 # Aliases
 alias term="$TERMINAL"
