@@ -1,3 +1,4 @@
+gemspec_yml:    true
 rubygems_tasks: true
 rspec:          true
 yard:           true
