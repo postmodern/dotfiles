@@ -44,8 +44,8 @@ alias irc="$IRC_CLIENT"
 alias music="$MUSIC_PLAYER"
 alias torrent="$BIT_TORRENT_CLIENT"
 
-alias phpi="$RUBY_SHELL"
-alias rbi="$RUBY_SHELL"
+alias phpi="$PHP_SHELL"
+alias rbi="$RUBYCONSOLE"
 alias js="$JS_SHELL"
 
 # Load RVM into a shell session *as a function*
