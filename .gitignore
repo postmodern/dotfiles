@@ -28,7 +28,10 @@ lost+found/
 # Project files
 CMakeFiles/
 CMakeCache.txt
+
+# Ruby project files
 .bundle
+.rbenv-version
 
 # Editor backup files
 *~
