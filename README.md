@@ -69,13 +69,18 @@
 
 ### Startup
 
-* XComposite Manager.
-* [Nitrogen](http://projects.l3ib.org/nitrogen/) Background Manager.
+* (Optional) XComposite Manager.
+* (Optional) [Nitrogen](http://projects.l3ib.org/nitrogen/) Background Manager.
+* (Optional) Conky.
 * Gnome Screensaver.
-* Network Manager Applet.
 * Gnome Sound Manager.
-* (Optional) Gnome Power Manager.
+* Network Manager Applet.
 * (Optional) Synaptic Touchpad configuration.
+* (Optional) Gnome Power Manager.
+* (Optional) Bluetooth.
+* polkit-gnome-authentication-agent-1
+* gpg-agent
+* gnome-keyring-daemon
 
 ### Themes
 
