@@ -27,13 +27,16 @@
 
 [[ -x /usr/bin/xcompmgr ]] && (xcompmgr -c &)
 [[ -x /usr/bin/nitrogen ]] && (nitrogen --restore &)
+[[ -x /usr/bin/conky    ]] && (conky &)
 
 gnome-screensaver &
 nm-applet &
 gnome-sound-applet &
 
 [[ -x /usr/bin/gnome-power-manager ]] && (gnome-power-manager &)
+[[ -x /usr/bin/bluetooth-applet    ]] && (bluetooth-applet &)
 
+/usr/libexec/polkit-gnome-authentication-agent-1 &
 eval $(gpg-agent --daemon)
 eval $(gnome-keyring-daemon)
 
