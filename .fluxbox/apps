@@ -13,7 +13,8 @@
   [Alpha]	{220 150}
 [end]
 
-[app] (class=.*[Tt]erm.*)
+[group]  (workspace=[current])
+  [app] (class=.*[Tt]erm.*)
   [Dimensions]	{744 453}
   [Position]	(LOWERLEFT)	{32 32}
 [end]
