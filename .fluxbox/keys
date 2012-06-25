@@ -46,16 +46,16 @@ Mod1 Shift Tab :PrevWindow {groups} (workspace=[current])
 Mod1 t :NextWindow {groups} (class=.*[Tt]erm.*)
 
 # alt-tab gvims
-Mod1 e :NextWindow {groups} (class=gvim) Or (class=kvim) Or (class=xemacs) Or (class=gedit)
+Mod1 e :NextWindow {groups} (class=[GgKk]vim|[Xx]emacs|[Gg]edit)
 
 # alt-tab firefoxes
 Mod1 b :NextWindow {groups} (role=browser)
 
 # alt-tab rhythmbox
-Mod1 m :NextWindow {groups} (class=rhythmbox)
+Mod1 m :NextWindow {groups} (class=[Rr]hythmbox)
 
 # alt-tab totem or mplayer
-Mod1 v :NextWindow {groups} (class=totem) Or (class=MPlayer)
+Mod1 v :NextWindow {groups} (class=[Tt]otem|[Mm]player)
 
 # alt-tab HUD windows
 Mod1 h :NextWindow {groups} (role=HUD)
