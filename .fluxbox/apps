@@ -3,32 +3,37 @@
   [Deco]	{BORDER}
   [Layer]	{2}
 [end]
+
 [group]  (workspace=[current])
- [app] (role=HUD)
+  [app] (role=HUD)
   [Position]	(UPPERLEFT)	{0 0}
   [Deco]	{NONE}
   [Maximized]	{horz}
   [Layer]	{8}
   [Alpha]	{220 150}
 [end]
+
 [app] (class=.*[Tt]erm.*)
   [Dimensions]	{744 453}
   [Position]	(LOWERLEFT)	{32 32}
 [end]
+
 [group]  (workspace=[current])
- [app] (role=conversation)
+  [app] (role=conversation)
   [Position]	(UPPERRIGHT)	{0 0}
   [Sticky]	{yes}
   [Alpha]	{255 190}
 [end]
+
 [group]  (workspace=[current])
- [app] (role=buddy_list)
+  [app] (role=buddy_list)
   [Dimensions]	{277 527}
   [Position]	(LOWERRIGHT)	{0 0}
   [Alpha]	{255 190}
 [end]
+
 [group]  (workspace=[current])
- [app] (class=.*vim)
+  [app] (class=[GgKk]vim|[Xx]emacs|[Gg]edit)
   [Dimensions]	{692 750}
   [Position]	(UPPERRIGHT)	{0 0}
   [Maximized]	{vert}
