@@ -39,3 +39,20 @@
   [Position]	(UPPERRIGHT)	{0 0}
   [Maximized]	{vert}
 [end]
+
+[app] (name=gimp) (role=gimp-dock)
+  [Layer]	{4}
+  [Position]	(UPPERRIGHT)	{0 0}
+  [Maximized]	{vert}
+[end]
+
+[app] (name=gimp) (role=gimp-toolbox)
+  [Layer]	{4}
+  [Position]	(UPPERLEFT)	{0 0}
+  [Maximized]	{vert}
+[end]
+
+[group]  (workspace=[current])
+  [app] (name=gimp) (role=gimp-image-window)
+  [Layer]	{2}
+[end]
