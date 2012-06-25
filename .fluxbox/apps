@@ -13,7 +13,8 @@
   [Alpha]	{220 150}
 [end]
 
-[app] (role=browser)
+[group]  (workspace=[current])
+  [app] (role=browser)
   [Maximized]	{yes}
 [end]
 
