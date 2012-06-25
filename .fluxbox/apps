@@ -13,6 +13,14 @@
   [Alpha]	{220 150}
 [end]
 
+[app] (role=browser)
+  [Maximized]	{yes}
+[end]
+
+[app] (class=Mail|Thunderbird)
+  [Maximized]	{yes}
+[end]
+
 [group]  (workspace=[current])
   [app] (class=.*[Tt]erm.*)
   [Dimensions]	{744 453}
