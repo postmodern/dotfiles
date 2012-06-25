@@ -91,6 +91,7 @@
 ### Key Bindings
 
     Alt+t                  Switch to the next Terminal Window
+    Alt+f                  Switch to the next File Manager Window
     Alt+e                  Switch to the next Editor Window
     Alt+b                  Switch to the next Browser Window
     Alt+m                  Switch to the next Music Player Window
