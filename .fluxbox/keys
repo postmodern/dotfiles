@@ -49,7 +49,7 @@ Mod1 t :NextWindow {groups} (class=.*[Tt]erm.*)
 Mod1 f :NextWindow {groups} (class=[Nn]autilus)
 
 # alt-tab editors
-Mod1 e :NextWindow {groups} (class=[GgKk]vim|[Xx]emacs|[Gg]edit)
+Mod1 e :NextWindow (class=[GgKk]vim|[Xx]emacs|[Gg]edit)
 
 # alt-tab browsers
 Mod1 b :NextWindow {groups} (role=browser)
