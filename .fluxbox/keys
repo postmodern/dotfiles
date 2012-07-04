@@ -54,6 +54,9 @@ Mod1 e :NextWindow (class=[GgKk]vim|[Xx]emacs|[Gg]edit)
 # alt-tab browsers
 Mod1 b :NextWindow {groups} (role=browser)
 
+# alt-tab IRC clients
+Mod1 i :NextWindow {groups} (class=[Xx]chat)
+
 # alt-tab music players
 Mod1 m :NextWindow {groups} (class=[Rr]hythmbox)
 
