@@ -65,3 +65,8 @@
   [app] (name=gimp) (role=gimp-image-window)
   [Layer]	{2}
 [end]
+
+[app] (class=Gcr-prompter)
+  [Position]	(Center)	{0, 0}
+  [Layer]	{6}
+[end]
