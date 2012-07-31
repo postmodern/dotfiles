@@ -47,3 +47,8 @@ alias torrent="$BIT_TORRENT_CLIENT"
 alias phpi="$RUBY_SHELL"
 alias rbi="$RUBY_SHELL"
 alias js="$JS_SHELL"
+
+function forget() {
+	ssh-add -D
+	kill -s HUP $(pgrep gpg-agent)
+}
