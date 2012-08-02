@@ -18,6 +18,11 @@
   [Maximized]	{yes}
 [end]
 
+[group]  (workspace=[current])
+  [app] (class=[Ee]vince)
+  [Maximized]	{yes}
+[end]
+
 [app] (class=Mail|Thunderbird)
   [Maximized]	{yes}
 [end]
