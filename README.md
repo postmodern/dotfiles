@@ -102,11 +102,11 @@
     
     Alt+Backspace          Minimize
     Alt+F1                 Maximize
-    Alt+PageUp             Maximize Vertically
-    Alt+PageDown           Maximize Horizontally
     Alt+Escape             Kill
     Alt+F11                Fullscreen
     
+    Shift+Alt+PageUp       Maximize Vertically
+    Shift+Alt+PageDown     Maximize Horizontally
     Shift+Alt+Left         Move Window to the Left
     Shift+Alt+Right        Move Window to the Right
     Shift+Alt+Up           Move Window to the Top

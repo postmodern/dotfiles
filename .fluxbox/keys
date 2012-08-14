@@ -93,12 +93,12 @@ Print :Exec gnome-screenshot
 # current window commands
 Mod1 BackSpace :Minimize
 Mod1 F1 :Maximize
-Mod1 Prior :MaximizeVertical
-Mod1 Next :MaximizeHorizontal
 Mod1 F4 :Close
 Mod1 Escape :Kill
 Mod1 F11 :Fullscreen
 
+Shift Mod1 Prior :MaximizeVertical
+Shift Mod1 Next :MaximizeHorizontal
 Shift Mod1 Left :MoveTo 0 * Left
 Shift Mod1 Right :MoveTo 0 * Right
 Shift Mod1 Up :MoveTo * 0 Top
