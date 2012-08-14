@@ -22,6 +22,7 @@ export EMAIL_CLIENT="thunderbird"
 export IM_CLIENT="pidgin"
 export IRC_CLIENT="xchat --no-plugins"
 export MUSIC_PLAYER="rhythmbox"
+export VIDEO_PLAYER="totem"
 export BIT_TORRENT_CLIENT="transmission-gtk"
 
 # Shell ENV variables
