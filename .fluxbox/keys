@@ -130,7 +130,7 @@ Control Mod1 j :Exec $TERMINAL --role=HUD --title=JavaScript -- $JS_SHELL
 Control Mod1 p :Exec $TERMINAL --role=HUD --title=PHP -- $PHP_SHELL
 
 # open a Ruby console
-Control Mod1 i :Exec $TERMINAL --role=HUD --title=Ruby -- $RUBYCONSOLE
+Control Mod1 i :Exec $TERMINAL --role=HUD --title=Ruby -- $RUBY_SHELL
 
 # open a terminal
 Control Mod1 t :Exec $TERMINAL
