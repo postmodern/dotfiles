@@ -1,7 +1,0 @@
-#!/bin/sh
-
-if [[ ! -z "${RUBY_SHELL}" ]]; then
-	$RUBY_SHELL $*
-else
-	irb $*
-fi
