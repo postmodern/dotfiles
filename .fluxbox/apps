@@ -72,6 +72,6 @@
 [end]
 
 [app] (class=Gcr-prompter)
-  [Position]	(Center)	{0, 0}
+  [Position]	(CENTER)	{0 0}
   [Layer]	{6}
 [end]
