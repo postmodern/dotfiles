@@ -19,11 +19,11 @@
 # Because it is the last app you have to run it with ''exec'' before it.
 
 # Synaptic Touchpad
-# if [[ -x /usr/bin/synclient ]]; then
-#   synclient VertEdgeScroll=1
-#   # synclient HorizEdgeScroll=1
-#   synclient TapButton1=1
-# fi
+if [[ -x /usr/bin/synclient ]]; then
+  synclient VertEdgeScroll=1
+  # synclient HorizEdgeScroll=1
+  synclient TapButton1=1
+fi
 
 [[ -x /usr/bin/xcompmgr ]] && (xcompmgr -c &)
 [[ -x /usr/bin/nitrogen ]] && (nitrogen --restore &)
