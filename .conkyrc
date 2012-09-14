@@ -334,8 +334,8 @@ ${offset 240}${fs_bar 3,100 /var/tmp}
 #${offset 240}${color}Down: ${color }${downspeed wlan0}k/s${color}
 #${offset 240}${downspeedgraph wlan0 20,130 000000 ffffff}
 
-${offset 240}${color slate grey}eth0: 
-${offset 240}${color}Up: ${color }${upspeed eth0} k/s
-${offset 240}${upspeedgraph eth0 20,130 000000 ffffff}
-${offset 240}${color}Down: ${color }${downspeed eth0}k/s${color}
-${offset 240}${downspeedgraph eth0 20,130 000000 ffffff}
+${offset 240}${color slate grey}em1: 
+${offset 240}${color}Up: ${color }${upspeed em1} k/s
+${offset 240}${upspeedgraph em1 20,130 000000 ffffff}
+${offset 240}${color}Down: ${color }${downspeed em1}k/s${color}
+${offset 240}${downspeedgraph em1 20,130 000000 ffffff}
