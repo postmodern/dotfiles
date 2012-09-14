@@ -18,7 +18,8 @@
 * `$IRC_CLIENT` - Prefered graphical IRC Client (Default: `xchat`).
 * `$MUSIC_PLAYER` - Prefered graphical Music Player (Default: `rhythmbox`).
 * `$VIDEO_PLAYER` - Prefered graphical Music Player (Default: `totem`).
-* `$BIT_TORRENT_CLIENT` - Prefered graphical BitTorrent client (Default: `transmission-gtk`).
+* `$TORRENT_CLIENT` - Prefered graphical BitTorrent client (Default: `transmission-gtk`).
+* `$PACKAGE_MANAGER` - Graphical client for the system Package Manager.
 * `$PHP_SHELL` - Spawns an interactive PHP shell (Default: `php -a`).
 * `$RUBY_SHELL` - Spawns an interactive Ruby shell (Default: `ripl`).
 * `$JS_SHELL` - Spawns an interactive JavaScript shell (Default: `js`).
