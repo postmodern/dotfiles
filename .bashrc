@@ -23,7 +23,16 @@ export IM_CLIENT="pidgin"
 export IRC_CLIENT="xchat --no-plugins"
 export MUSIC_PLAYER="rhythmbox"
 export VIDEO_PLAYER="totem"
-export BIT_TORRENT_CLIENT="transmission-gtk"
+export TORRENT_CLIENT="transmission-gtk"
+
+PACKAGE_MANAGERS=(synaptic gpk-application)
+
+for program in ${PACKAGE_MANAGERS[*]}; do
+	if [[ -x /usr/bin/$program ]]; then
+		export PACKAGE_MANAGER="$program"
+		break
+	fi
+done
 
 # Shell ENV variables
 export PHP_SHELL="php -a"
