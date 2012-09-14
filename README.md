@@ -77,9 +77,9 @@
 * Gnome Screensaver.
 * Gnome Sound Manager.
 * Network Manager Applet.
-* (Optional) Synaptic Touchpad configuration.
-* (Optional) Gnome Power Manager.
-* (Optional) Bluetooth.
+* (Laptop) Synaptic Touchpad configuration.
+* (Laptop) Gnome Power Manager.
+* (Laptop) Bluetooth.
 * polkit-gnome-authentication-agent-1
 * gpg-agent
 * gnome-keyring-daemon
