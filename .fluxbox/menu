@@ -27,7 +27,7 @@
 	[exec] (IRC)		{$IRC_CLIENT}
 	[separator] 
 	[exec] (Music)		{$MUSIC_PLAYER}
-	[exec] (Torrents)	{$BIT_TORRENT_CLIENT}
+	[exec] (Torrents)	{$TORRENT_CLIENT}
 	[separator] 
 [submenu] (Fluxbox)
 	[config] (Configure) 
@@ -48,6 +48,7 @@
 	[restart] (Restart) 
 	[exec] (About) {(fluxbox -v; fluxbox -info | sed 1d) | xmessage -file - -center} 
 [end]
+	[exec] (Install)	{$PACKAGE_MANAGER}
 	[exec] (Run)		{fbrun} 
 	[exit] (Exit) 
 [endencoding]
