@@ -41,7 +41,7 @@ export RUBY_SHELL="ripl"
 
 # Aliases
 alias term="$TERMINAL"
-alias files=$FILE_MANAGER
+alias files="$FILE_MANAGER"
 
 if [[ -n "${DISPLAY}" ]]; then alias edit="$GUI_EDITOR"
 else                           alias edit="$EDITOR"
