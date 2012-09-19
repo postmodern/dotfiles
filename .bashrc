@@ -52,7 +52,7 @@ alias email="$EMAIL_CLIENT"
 alias im="$IM_CLIENT"
 alias irc="$IRC_CLIENT"
 alias music="$MUSIC_PLAYER"
-alias torrent="$BIT_TORRENT_CLIENT"
+alias torrent="$TORRENT_CLIENT"
 
 alias phpi="$RUBY_SHELL"
 alias rbi="$RUBY_SHELL"
