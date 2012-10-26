@@ -96,6 +96,7 @@
     Alt+f                  Switch to the next File Manager Window
     Alt+e                  Switch to the next Editor Window
     Alt+b                  Switch to the next Browser Window
+    Alt+c                  Switch to the next IM Conversation Window
     Alt+i                  Switch to the next IRC Client Window
     Alt+m                  Switch to the next Music Player Window
     Alt+v                  Switch to the next Video Player Window

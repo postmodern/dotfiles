@@ -54,6 +54,9 @@ Mod1 e :NextWindow (class=[GgKk]vim|[Xx]emacs|[Gg]edit)
 # alt-tab browsers
 Mod1 b :NextWindow {groups} (role=browser)
 
+# alt-tab IM conversations
+Mod1 c :NextWindow {groups} (role=conversation)
+
 # alt-tab IRC clients
 Mod1 i :NextWindow {groups} (class=[Xx]chat)
 
