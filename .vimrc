@@ -1,4 +1,6 @@
 set number
+set autoindent
+set smartindent
 set scrolloff=4
 set wildmode=longest,list,full
 set wildignore+=.git,.bundle,.yard,*.o,*.rbc
