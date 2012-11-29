@@ -48,6 +48,9 @@ Mod1 t :NextWindow {groups} (class=.*[Tt]erm.*)
 # alt-tab file-managers
 Mod1 f :NextWindow {groups} (class=[Nn]autilus)
 
+# alt-tab email clients
+Mod1 m :NextWindow {static} (class=Mail|Thunderbird)
+
 # alt-tab editors
 Mod1 e :NextWindow (class=[GgKk]vim|[Xx]emacs|[Gg]edit)
 
@@ -61,7 +64,7 @@ Mod1 c :NextWindow {groups} (role=conversation)
 Mod1 i :NextWindow {groups} (class=[Xx]chat)
 
 # alt-tab music players
-Mod1 m :NextWindow {groups} (class=[Rr]hythmbox)
+Mod1 p :NextWindow {groups} (class=[Rr]hythmbox)
 
 # alt-tab video players
 Mod1 v :NextWindow {groups} (class=[Tt]otem|[Mm]player)
