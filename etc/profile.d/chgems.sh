@@ -1,1 +1,0 @@
-/usr/local/etc/profile.d/chgems.sh
