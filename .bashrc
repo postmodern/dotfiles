@@ -43,7 +43,4 @@ export JS_SHELL="js"
 export RUBY_SHELL="ripl"
 
 # Aliases
-alias phpi="$RUBY_SHELL"
-alias rbi="$RUBY_SHELL"
-alias js="$JS_SHELL"
 alias forget='ssh-add -D; kill -s HUP $(pgrep gpg-agent)'
