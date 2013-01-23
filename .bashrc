@@ -24,6 +24,9 @@ export IRC_CLIENT="xchat --no-plugins"
 export MUSIC_PLAYER="rhythmbox"
 export VIDEO_PLAYER="totem"
 export TORRENT_CLIENT="transmission-gtk"
+export DOCUMENT_EDITOR="libreoffice --writer"
+export SPREADSHEET_EDITOR="libreoffice --calc"
+export PRESENTATION_EDITOR="libreoffice --impress"
 
 PACKAGE_MANAGERS=(synaptic gpk-application)
 
@@ -40,20 +43,6 @@ export JS_SHELL="js"
 export RUBY_SHELL="ripl"
 
 # Aliases
-alias term="$TERMINAL"
-alias files="$FILE_MANAGER"
-
-if [[ -n "${DISPLAY}" ]]; then alias edit="$GUI_EDITOR"
-else                           alias edit="$EDITOR"
-fi
-
-alias browser="$BROWSER"
-alias email="$EMAIL_CLIENT"
-alias im="$IM_CLIENT"
-alias irc="$IRC_CLIENT"
-alias music="$MUSIC_PLAYER"
-alias torrent="$TORRENT_CLIENT"
-
 alias phpi="$RUBY_SHELL"
 alias rbi="$RUBY_SHELL"
 alias js="$JS_SHELL"
