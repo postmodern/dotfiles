@@ -94,7 +94,7 @@ Mod4 9 :Tab 9
 160 :Exec amixer sset Master,0 toggle
 
 # Take a screenshot
-Print :Exec gnome-screenshot
+Control Mod1 Print :Exec gnome-screenshot
 
 # current window commands
 Mod1 BackSpace :Minimize
