@@ -4,6 +4,11 @@
 #   $ git config --global --add core.excludesfile ~/.gitignore
 #
 
+# Credentials
+.gem/credentials
+.gnupg/
+.ssh/
+
 # System files
 .DS_Store
 lost+found/
