@@ -41,3 +41,6 @@ CMakeCache.txt
 # Documentation files
 .rdoc
 .yardoc
+
+# Vagrant
+.vagrant
