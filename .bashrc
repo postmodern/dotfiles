@@ -43,4 +43,4 @@ export JS_SHELL="js"
 export RUBY_SHELL="ripl"
 
 # Aliases
-alias forget='ssh-add -D; pkill -s SIGHUP gpg-agent'
+alias forget='ssh-add -D; pkill -HUP gpg-agent'
