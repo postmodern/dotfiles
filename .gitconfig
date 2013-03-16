@@ -1,0 +1,13 @@
+[user]
+	name = Postmodern
+	email = postmodern.mod3@gmail.com
+	signingkey = B9515E77
+[core]
+	excludesfile = /home/hal/.gitignore
+[github]
+	user = postmodern
+[branch "master"]
+	remote = origin
+	merge = refs/heads/master
+[alias]
+	sed = ! git grep -z --full-name -l '.' | xargs -0 sed -i -e
