@@ -10,4 +10,4 @@
 	remote = origin
 	merge = refs/heads/master
 [alias]
-	sed = ! git grep -z --full-name -l '.' | xargs -0 sed -i -e
+	sed = ! git ls-files -z | xargs -0 sed -i -e
