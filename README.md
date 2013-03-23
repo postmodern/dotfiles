@@ -26,18 +26,8 @@
 
 ### Aliases
 
-* `term` - Invokes `$TERMINAL`.
-* `files` - Invokes `$FILE_MANAGER`.
-* `edit` - Invokes either `$GUI_EDITOR` or `$EDITOR`.
-* `browser` - Invokes `$BROWSER`.
-* `email` - Invokes `$EMAIL_CLIENT`.
-* `im` - Invokes `$IM_CLIENT`.
-* `irc` - Invokes `$IRC_CLIENT`.
-* `music` - Invokes `$MUSIC_PLAYER`.
-* `torrent` - Invokes `$BIT_TORRENT_CLIENT`.
-* `phpi` - Invokes `$PHP_SHELL`.
-* `rbi` - Invokes `$RUBY_SHELL`.
-* `js` - Invokes `$JS_SHELL`.
+* `forget` - Clears SSH keys and PGP passphrases.
+* `irb` - Overrides `irb` with the awesome [ripl] Ruby REPL.
 
 ## Vim
 
@@ -65,14 +55,18 @@
 ## Ruby
 
 * Enable tab-completion for IRB.
-* Enable common plugins for [Ripl](https://github.com/cldwalker/ripl#readme).
+* Enable common plugins for [Ripl][ripl].
+  * [ripl-multi\_line]
+  * [ripl-auto\_indent]
+  * [ripl-color\_result]
+  * [ripl-shell\_commands]
 
-## [FluxBox](http://fluxbox.org/)
+## [FluxBox]
 
 ### Startup
 
 * (Optional) XComposite Manager.
-* (Optional) [Nitrogen](http://projects.l3ib.org/nitrogen/) Background Manager.
+* (Optional) [Nitrogen] Background Manager.
 * (Optional) Conky.
 * Gnome Screensaver.
 * Gnome Sound Manager.
@@ -86,7 +80,8 @@
 
 ### Themes
 
-* [Dyne](http://box-look.org/content/show.php/Dyne?content=61999) Theme.
+* [Dyne] - Light theme.
+* [BlueNeon] - Dark theme.
 
 ### Menu
 
@@ -131,5 +126,15 @@
     Control+Alt+f          Spawns a new File Manager
     Control+Alt+l          Locks the screen
 
-    PrintScreen            Take a Screenshot
+    Control+Alt+PrintScreen   Take a Screenshot
 
+[ripl]: https://github.com/cldwalker/ripl#readme
+[ripl-multi\_line]: https://github.com/janlelis/ripl-multi_line#readme
+[ripl-auto\_indent]: https://github.com/janlelis/ripl-auto_indent#readme
+[ripl-color\_result]: https://github.com/janlelis/ripl-color_result#readme
+[ripl-shell\_commands]: https://github.com/postmodern/ripl-shell_commands#readme
+
+[FluxBox]: http://fluxbox.org/
+[Nitrogen]: http://projects.l3ib.org/nitrogen/
+[Dyne]: http://box-look.org/content/show.php/Dyne?content=61999
+[BlueNeon]: https://github.com/postmodern/dotfiles/tree/master/.fluxbox/styles/BlueNeon
