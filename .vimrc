@@ -10,11 +10,11 @@ syntax on
 filetype plugin indent on
 
 " make and python use real tabs
-au FileType make set noexpandtab
-au FileType python set noexpandtab
+autocmd FileType make set noexpandtab
+autocmd FileType python set noexpandtab
 
 " Thorfile, Rakefile and Gemfile are Ruby
-au BufRead,BufNewFile {Gemfile,Rakefile,Thorfile,config.ru} set ft=ruby
+autocmd BufRead,BufNewFile {Gemfile,Rakefile,Thorfile,config.ru} set ft=ruby
 
 " Enable spellchecking for *.md and *.txt files
 autocmd BufNewFile,BufRead *.txt set spell
