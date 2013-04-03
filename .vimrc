@@ -9,20 +9,9 @@ color ir_black
 syntax on
 filetype plugin indent on
 
-" make and python use real tabs
-autocmd FileType make set noexpandtab
-autocmd FileType python set noexpandtab
-
 " Thorfile, Rakefile and Gemfile are Ruby
 autocmd BufRead,BufNewFile {Gemfile,Rakefile,Thorfile,config.ru} set ft=ruby
-
-" Wrap text to 80 columns for *.md and *.txt files
-autocmd BufNewFile,BufRead *.txt set textwidth=80
-autocmd BufNewFile,BufRead *.md set textwidth=80
-
-" Enable spellchecking for *.md and *.txt files
-autocmd BufNewFile,BufRead *.txt set spell
-autocmd BufNewFile,BufRead *.md set spell
+autocmd BufRead,BufNewFile *.txt set ft=txt
 
 " md, markdown, and mk are markdown and define buffer-local preview
 " au BufRead,BufNewFile *.{md,markdown,mdown,mkd,mkdn} call s:setupMarkup()
