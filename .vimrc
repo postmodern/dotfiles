@@ -16,5 +16,9 @@ au FileType python set noexpandtab
 " Thorfile, Rakefile and Gemfile are Ruby
 au BufRead,BufNewFile {Gemfile,Rakefile,Thorfile,config.ru} set ft=ruby
 
+" Enable spellchecking for *.md and *.txt files
+autocmd BufNewFile,BufRead *.txt set spell
+autocmd BufNewFile,BufRead *.md set spell
+
 " md, markdown, and mk are markdown and define buffer-local preview
 " au BufRead,BufNewFile *.{md,markdown,mdown,mkd,mkdn} call s:setupMarkup()
