@@ -10,4 +10,5 @@
 	remote = origin
 	merge = refs/heads/master
 [alias]
+	clear = reset --hard HEAD
 	sed = !sh -c 'git ls-files -z $2 | xargs -0 sed -i -e $1' -
