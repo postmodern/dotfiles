@@ -5,6 +5,7 @@ set scrolloff=4
 set wildmode=longest,list,full
 set wildignore+=.git,.bundle,.yard,*.o,*.rbc
 set vb t_vb=
+set shell=bash\ -l
 color ir_black
 syntax on
 filetype plugin indent on
