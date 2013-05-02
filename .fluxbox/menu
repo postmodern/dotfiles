@@ -27,7 +27,14 @@
 	[exec] (IRC)		{$IRC_CLIENT}
 	[separator] 
 	[exec] (Music)		{$MUSIC_PLAYER}
+	[exec] (DVD)            {mplayer -fs -mouse-movements dvdnav://}
 	[exec] (Torrents)	{$TORRENT_CLIENT}
+	[separator] 
+[submenu] (Office)
+	[exec] (Document)	{libreoffice --writer}
+	[exec] (Spreadsheet)	{libreoffice --calc}
+	[exec] (Presentation)	{libreoffice --impress}
+[end]
 	[separator] 
 [submenu] (Fluxbox)
 	[config] (Configure) 
@@ -48,7 +55,6 @@
 	[restart] (Restart) 
 	[exec] (About) {(fluxbox -v; fluxbox -info | sed 1d) | xmessage -file - -center} 
 [end]
-	[exec] (Install)	{$PACKAGE_MANAGER}
 	[exec] (Run)		{fbrun} 
 	[exit] (Exit) 
 [endencoding]
