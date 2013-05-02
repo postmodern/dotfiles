@@ -85,6 +85,25 @@
 
 ### Menu
 
+* Terminal (`gnome-terminal`)
+* Editor (`gvim`)
+* Files (`nautilus --no-desktop`)
+
+* Browser (`firefox`)
+* Email (`thunderbird`)
+
+* IM (`pidgin`)
+* IRC (`xchat`)
+
+* Music (`rthymbox`)
+* DVD (`mplayer -fs -mouse-movements dvdnav://`)
+* Torrents (`transmission-gtk`)
+
+* Office
+  * Document (`libreoffice --writer`)
+  * Spreedsheet (`libreoffice --calc`)
+  * Presentation (`libreoffice --impress`)
+
 ### Key Bindings
 
     Alt+t                  Switch to the next Terminal Window
