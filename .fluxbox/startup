@@ -18,17 +18,27 @@
 # And last but not least we start fluxbox.
 # Because it is the last app you have to run it with ''exec'' before it.
 
-[[ -x /usr/bin/xcompmgr ]] && (xcompmgr -c &)
-[[ -x /usr/bin/nitrogen ]] && (nitrogen --restore &)
-[[ -x /usr/bin/conky    ]] && (conky &)
+# Synaptic Touchpad
+# if command -v synclient; then
+#   synclient VertEdgeScroll=1
+#   # synclient HorizEdgeScroll=1
+#   synclient TapButton1=1
+# fi
 
-gnome-screensaver &
-nm-applet &
-gnome-sound-applet &
+command -v xcompmgr && (xcompmgr -c &)
+command -v nitrogen && (nitrogen --restore &)
+command -v conky    && (conky &)
+
+command -v gnome-screensaver  && (gnome-screensaver &)
+command -v nm-applet          && (nm-applet &)
+command -v gnome-sound-applet && (gnome-sound-applet &)
+
+command -v gnome-power-manager && (gnome-power-manager &)
+command -v bluetooth-applet    && (bluetooth-applet &)
 
 /usr/libexec/polkit-gnome-authentication-agent-1 &
-eval $(gpg-agent --daemon)
-eval $(gnome-keyring-daemon)
+command -v gpg-agent            && eval $(gpg-agent --daemon)
+command -v gnome-keyring-daemon && eval $(gnome-keyring-daemon)
 
 exec fluxbox
 # or if you want to keep a log:
