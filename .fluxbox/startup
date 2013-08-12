@@ -37,8 +37,8 @@ command -v gnome-power-manager && (gnome-power-manager &)
 command -v bluetooth-applet    && (bluetooth-applet &)
 
 /usr/libexec/polkit-gnome-authentication-agent-1 &
-command -v gpg-agent            && eval $(gpg-agent --daemon)
-command -v gnome-keyring-daemon && eval $(gnome-keyring-daemon)
+command -v gpg-agent            && eval "$(gpg-agent --daemon)"
+command -v gnome-keyring-daemon && eval "$(gnome-keyring-daemon)"
 
 exec fluxbox
 # or if you want to keep a log:
