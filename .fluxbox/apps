@@ -3,74 +3,62 @@
   [Deco]	{BORDER}
   [Layer]	{2}
 [end]
-
 [group]  (workspace=[current])
-  [app] (role=HUD)
+ [app] (role=HUD)
   [Position]	(UPPERLEFT)	{0 0}
   [Deco]	{NONE}
   [Maximized]	{horz}
   [Layer]	{8}
   [Alpha]	{220 150}
 [end]
-
 [group]  (workspace=[current])
-  [app] (role=browser)
+ [app] (role=browser)
   [Maximized]	{yes}
 [end]
-
 [group]  (workspace=[current])
-  [app] (class=[Ee]vince)
+ [app] (class=[Ee]vince)
   [Maximized]	{yes}
 [end]
-
 [app] (class=Mail|Thunderbird)
   [Maximized]	{yes}
 [end]
-
 [group]  (workspace=[current])
-  [app] (class=.*[Tt]erm.*)
+ [app] (class=.*[Tt]erm.*)
   [Dimensions]	{744 453}
   [Position]	(LOWERLEFT)	{32 32}
 [end]
-
 [group]  (workspace=[current])
-  [app] (role=conversation)
+ [app] (role=conversation|ConversationsWindow)
   [Position]	(UPPERRIGHT)	{0 0}
   [Sticky]	{yes}
   [Alpha]	{255 190}
 [end]
-
 [group]  (workspace=[current])
-  [app] (role=buddy_list)
+ [app] (role=buddy_list)
   [Dimensions]	{277 527}
   [Position]	(LOWERRIGHT)	{0 0}
   [Alpha]	{255 190}
 [end]
-
 [group]  (workspace=[current])
-  [app] (class=[GgKk]vim|[Xx]emacs|[Gg]edit)
+ [app] (class=[GgKk]vim|[Xx]emacs|[Gg]edit)
   [Dimensions]	{692 750}
   [Position]	(UPPERRIGHT)	{0 0}
   [Maximized]	{vert}
 [end]
-
 [app] (name=gimp) (role=gimp-dock)
-  [Layer]	{4}
   [Position]	(UPPERRIGHT)	{0 0}
   [Maximized]	{vert}
-[end]
-
-[app] (name=gimp) (role=gimp-toolbox)
   [Layer]	{4}
+[end]
+[app] (name=gimp) (role=gimp-toolbox)
   [Position]	(UPPERLEFT)	{0 0}
   [Maximized]	{vert}
+  [Layer]	{4}
 [end]
-
 [group]  (workspace=[current])
-  [app] (name=gimp) (role=gimp-image-window)
+ [app] (name=gimp) (role=gimp-image-window)
   [Layer]	{2}
 [end]
-
 [app] (class=Gcr-prompter)
   [Position]	(CENTER)	{0 0}
   [Layer]	{6}
