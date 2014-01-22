@@ -45,6 +45,10 @@
   [Position]	(UPPERRIGHT)	{0 0}
   [Maximized]	{vert}
 [end]
+[group]  (workspace=[current])
+ [app] (role=diagram_window)
+  [Maximized]	{vert}
+[end]
 [app] (name=gimp) (role=gimp-dock)
   [Position]	(UPPERRIGHT)	{0 0}
   [Maximized]	{vert}
