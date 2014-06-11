@@ -113,7 +113,7 @@
     Alt+m                  Switch to the next Email Client Window
     Alt+c                  Switch to the next IM Conversation Window
     Alt+i                  Switch to the next IRC Client Window
-    Alt+p                  Switch to the next Music Player Window
+    Alt+a                  Switch to the next Music Player Window
     Alt+v                  Switch to the next Video Player Window
     Alt+h                  Switch to the next HUD Window
     
