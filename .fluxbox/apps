@@ -49,20 +49,6 @@
  [app] (role=diagram_window)
   [Maximized]	{vert}
 [end]
-[app] (name=gimp) (role=gimp-dock)
-  [Position]	(UPPERRIGHT)	{0 0}
-  [Maximized]	{vert}
-  [Layer]	{4}
-[end]
-[app] (name=gimp) (role=gimp-toolbox)
-  [Position]	(UPPERLEFT)	{0 0}
-  [Maximized]	{vert}
-  [Layer]	{4}
-[end]
-[group]  (workspace=[current])
- [app] (name=gimp) (role=gimp-image-window)
-  [Layer]	{2}
-[end]
 [app] (class=Gcr-prompter)
   [Position]	(CENTER)	{0 0}
   [Layer]	{6}
