@@ -1,0 +1,1 @@
+ATTR{idVendor}=="1d50", ATTR{idProduct}=="6089", SYMLINK+="hackrf-%k", MODE="660", GROUP="hackrf"
