@@ -44,3 +44,7 @@ export RUBY_SHELL="ripl"
 
 # Aliases
 alias forget='ssh-add -D; pkill -HUP gpg-agent'
+alias stlink-openocd="openocd -f board/stm32f429discovery.cfg"
+alias openocd-telnet="telnet localhost 4444"
+alias openocd-gdb='arm-none-eabi-gdb -ex "tar ext :3333"'
+alias stlink-gdb='arm-none-eabi-gdb -ex "tar ext :4242"'
