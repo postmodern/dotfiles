@@ -30,11 +30,8 @@
 	[exec] (DVD)            {mpv -fs dvdnav:// || mpv -fs dvd://}
 	[exec] (Torrents)	{$TORRENT_CLIENT}
 	[separator] 
-[submenu] (Office)
-	[exec] (Document)	{libreoffice --writer}
-	[exec] (Spreadsheet)	{libreoffice --calc}
-	[exec] (Presentation)	{libreoffice --impress}
-[end]
+	[exec] (Diagram)	{dia}
+	[exec] (Writer)		{libreoffice --writer}
 	[separator] 
 [submenu] (Fluxbox)
 	[config] (Configure) 
