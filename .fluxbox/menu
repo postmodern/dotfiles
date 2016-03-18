@@ -53,7 +53,7 @@
 	[commanddialog] (Fluxbox Command) 
 	[reconfig] (Reload config) 
 	[restart] (Restart) 
-	[exec] (About) {(fluxbox -v; fluxbox -info | sed 1d) | xmessage -file - -center} 
+	[exec] (About) {(fluxbox -v; fluxbox -info | sed 1d) | gxmessage -file - -center} 
 [end]
 	[exec] (Run)		{fbrun} 
 	[exit] (Exit) 
