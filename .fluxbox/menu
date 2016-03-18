@@ -30,6 +30,9 @@
 	[exec] (DVD)            {mpv -fs dvdnav:// || mpv -fs dvd://}
 	[exec] (Torrents)	{$TORRENT_CLIENT}
 	[separator] 
+	[exec] (Image)		{gimp}
+	[exec] (SVG)		{inkscape}
+	[separator] 
 	[exec] (Diagram)	{dia}
 	[exec] (Writer)		{libreoffice --writer}
 	[separator] 
