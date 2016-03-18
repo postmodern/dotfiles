@@ -27,7 +27,7 @@
 	[exec] (IRC)		{$IRC_CLIENT}
 	[separator] 
 	[exec] (Music)		{$MUSIC_PLAYER}
-	[exec] (DVD)            {mplayer -fs -mouse-movements dvdnav://}
+	[exec] (DVD)            {mpv -fs dvdnav:// || mpv -fs dvd://}
 	[exec] (Torrents)	{$TORRENT_CLIENT}
 	[separator] 
 [submenu] (Office)
