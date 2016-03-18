@@ -32,6 +32,7 @@
 	[separator] 
 	[exec] (Image)		{gimp}
 	[exec] (SVG)		{inkscape}
+	[exec] (Photo)		{shotwell}
 	[separator] 
 	[exec] (Diagram)	{dia}
 	[exec] (Writer)		{libreoffice --writer}
