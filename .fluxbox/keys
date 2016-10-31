@@ -43,34 +43,34 @@ Mod1 Tab :NextWindow {groups} (workspace=[current])
 Mod1 Shift Tab :PrevWindow {groups} (workspace=[current])
 
 # alt-tab terminals
-Mod1 t :NextWindow {groups} (class=.*[Tt]erm.*)
+Mod1 t :NextGroup (class=.*[Tt]erm.*)
 
 # alt-tab file-managers
-Mod1 f :NextWindow {groups} (class=[Nn]autilus)
+Mod1 f :NextGroup (class=[Nn]autilus)
 
 # alt-tab email clients
 Mod1 m :NextWindow (class=Mail|Thunderbird)
 
 # alt-tab editors
-Mod1 e :NextWindow (class=[GgKk]vim|[Xx]emacs|[Gg]edit)
+Mod1 e :NextGroup (class=[GgKk]vim|[Xx]emacs|[Gg]edit)
 
 # alt-tab browsers
-Mod1 b :NextWindow {groups} (role=browser)
+Mod1 b :NextGroup (role=browser)
 
 # alt-tab IM conversations
-Mod1 c :NextWindow {groups} (role=conversation|ConversationsWindow)
+Mod1 c :NextWindow (role=conversation|ConversationsWindow)
 
 # alt-tab IRC clients
-Mod1 i :NextWindow {groups} (class=[Xx]chat)
+Mod1 i :NextWindow (class=[Xx]chat|[Hh]exchat)
 
 # alt-tab music players
-Mod1 a :NextWindow {groups} (class=[Rr]hythmbox)
+Mod1 a :NextWindow (class=[Rr]hythmbox)
 
 # alt-tab video players
-Mod1 v :NextWindow {groups} (class=[Tt]otem|[Mm][Pp]layer)
+Mod1 v :NextWindow (class=[Tt]otem|[Mm][Pp]layer|mpv)
 
 # alt-tab HUD windows
-Mod1 h :NextWindow {groups} (role=HUD)
+Mod1 h :NextWindow (role=HUD)
 
 # cycle through tabs in the current window
 Mod4 Tab :NextTab
