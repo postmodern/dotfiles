@@ -19,7 +19,7 @@
  [app] (class=[Ee]vince)
   [Maximized]	{yes}
 [end]
-[app] (class=Mail|Thunderbird)
+[app] (class=Mail|[Ee]volution|Thunderbird)
   [Maximized]	{yes}
 [end]
 [group]  (workspace=[current])

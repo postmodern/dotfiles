@@ -49,7 +49,7 @@ Mod1 t :NextGroup (class=.*[Tt]erm.*)
 Mod1 f :NextGroup (class=[Nn]autilus)
 
 # alt-tab email clients
-Mod1 m :NextWindow (class=Mail|Thunderbird)
+Mod1 m :NextWindow (class=Mail|[Ee]volution|Thunderbird)
 
 # alt-tab editors
 Mod1 e :NextGroup (class=[GgKk]vim|[Xx]emacs|[Gg]edit)
