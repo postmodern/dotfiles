@@ -37,7 +37,6 @@ command -v gnome-power-manager && (gnome-power-manager &)
 command -v bluetooth-applet    && (bluetooth-applet &)
 
 /usr/libexec/polkit-gnome-authentication-agent-1 &
-command -v gpg-agent && eval "$(gpg-agent --daemon)"
 
 if command -v gnome-keyring-daemon; then
 	eval "$(gnome-keyring-daemon)"
