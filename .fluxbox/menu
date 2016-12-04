@@ -56,6 +56,8 @@
 	[restart] (Restart) 
 	[exec] (About) {(fluxbox -v; fluxbox -info | sed 1d) | gxmessage -file - -center} 
 [end]
-	[exit] (Exit) 
+	[exec] (Shutdown)	{systemctl poweroff}
+	[exec] (Reboot)		{systemctl reboot}
+	[exit] (Logout) 
 [endencoding]
 [end]
