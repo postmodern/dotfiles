@@ -23,7 +23,8 @@
   [Maximized]	{yes}
 [end]
 [group]  (workspace=[current])
- [app] (class=.*[Tt]erm.*)
+ [app] (class=[Gg]nome-terminal.*) (role=gnome-terminal-window-.*)
+ [app] (class=xterm|XTerm)
   [Dimensions]	{744 453}
   [Position]	(LOWERLEFT)	{32 32}
 [end]
