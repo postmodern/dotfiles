@@ -56,7 +56,6 @@
 	[restart] (Restart) 
 	[exec] (About) {(fluxbox -v; fluxbox -info | sed 1d) | gxmessage -file - -center} 
 [end]
-	[exec] (Run)		{fbrun} 
 	[exit] (Exit) 
 [endencoding]
 [end]
