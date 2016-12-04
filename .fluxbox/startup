@@ -25,6 +25,13 @@
 #   synclient TapButton1=1
 # fi
 
+# Prelude
+/usr/libexec/polkit-gnome-authentication-agent-1 &
+
+# Start FluxBox
+fluxbox &
+fbpid=$!
+
 command -v xcompmgr && (xcompmgr -c &)
 command -v nitrogen && (nitrogen --restore &)
 command -v conky    && (conky &)
@@ -36,8 +43,5 @@ command -v volumeicon         && (volumeicon &)
 command -v gnome-power-manager && (gnome-power-manager &)
 command -v bluetooth-applet    && (bluetooth-applet &)
 
-/usr/libexec/polkit-gnome-authentication-agent-1 &
-
-exec fluxbox
-# or if you want to keep a log:
-# exec fluxbox -log "/home/hal/.fluxbox/log"
+wait $fbpid
+# Cleanup
