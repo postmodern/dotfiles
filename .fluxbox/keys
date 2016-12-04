@@ -89,9 +89,9 @@ Mod4 9 :Tab 9
 
 # volume settings, using common keycodes
 # if these don't work, use xev to find out your real keycodes
-176 :Exec amixer sset Master,0 1+
-174 :Exec amixer sset Master,0 1-
-160 :Exec amixer sset Master,0 toggle
+None XF86AudioRaiseVolume :Exec pactl set-sink-volume 0 +10%
+None XF86AudioLowerVolume :Exec pactl set-sink-volume 0 -10%
+None XF86AudioMute :Exec pactl set-sink-mute 0 toggle
 
 # Take a screenshot
 Control Mod1 Print :Exec gnome-screenshot
