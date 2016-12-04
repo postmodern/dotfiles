@@ -31,7 +31,7 @@ command -v conky    && (conky &)
 
 command -v gnome-screensaver  && (gnome-screensaver &)
 command -v nm-applet          && (nm-applet &)
-command -v gnome-sound-applet && (gnome-sound-applet &)
+command -v volumeicon         && (volumeicon &)
 
 command -v gnome-power-manager && (gnome-power-manager &)
 command -v bluetooth-applet    && (bluetooth-applet &)
