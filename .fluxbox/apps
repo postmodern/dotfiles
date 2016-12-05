@@ -22,6 +22,14 @@
 [app] (class=Mail|[Ee]volution|Thunderbird)
   [Maximized]	{yes}
 [end]
+[app] (class=[Hh]exchat)
+  [Dimensions]	{70% 70%}
+  [Position]	(CENTER)	{0 0}
+[end]
+[app] (class=[Rr]hythmbox)
+  [Dimensions]	{70% 70%}
+  [Position]	(CENTER)	{0 0}
+[end]
 [group]  (workspace=[current])
  [app] (class=[Gg]nome-terminal.*) (role=gnome-terminal-window-.*)
  [app] (class=xterm|XTerm)
