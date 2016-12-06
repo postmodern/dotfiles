@@ -34,7 +34,7 @@
  [app] (class=[Gg]nome-terminal.*) (role=gnome-terminal-window-.*)
  [app] (class=xterm|XTerm)
   [Dimensions]	{744 453}
-  [Position]	(LOWERLEFT)	{32 32}
+  [Position]	(LOWERLEFT)	{3% 3%}
 [end]
 [group]  (workspace=[current])
  [app] (role=conversation|ConversationsWindow)
