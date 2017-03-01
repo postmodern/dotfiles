@@ -32,6 +32,9 @@ lost+found/
 CMakeFiles/
 CMakeCache.txt
 
+# Python project files
+*.pyc
+
 # Ruby project files
 .bundle
 .rbenv-version
