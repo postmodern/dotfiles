@@ -22,8 +22,6 @@ lost+found/
 *.o
 *.a
 *.so
-*.rbc
-.rbx/
 
 # Package files
 *.tar.gz
@@ -37,6 +35,8 @@ CMakeCache.txt
 # Ruby project files
 .bundle
 .rbenv-version
+*.rbc
+.rbx/
 
 # Editor backup files
 *~
