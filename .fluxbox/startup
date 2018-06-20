@@ -25,9 +25,6 @@
 #   synclient TapButton1=1
 # fi
 
-# Prelude
-/usr/libexec/polkit-gnome-authentication-agent-1 &
-
 # Start FluxBox
 fluxbox &
 fbpid=$!
