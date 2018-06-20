@@ -4,6 +4,9 @@
 #
 # Lines starting with a '#' are ignored.
 
+# Change the resolution
+xrandr --auto
+
 # Change your keymap:
 # xmodmap "/home/hal/.Xmodmap"
 
