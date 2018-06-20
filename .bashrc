@@ -11,22 +11,7 @@ fi
 export HISTFILE=/dev/null
 export HISTFILESIZE=0
 export PATH="$PATH:$HOME/bin"
-
-# Applications ENV variables
-export TERMINAL="gnome-terminal"
-export FILE_MANAGER="nautilus --no-desktop"
 export EDITOR="vim"
-export GUI_EDITOR="gvim"
-export BROWSER="chromium-browser"
-export EMAIL_CLIENT="evolution"
-export IM_CLIENT="pidgin"
-export IRC_CLIENT="hexchat --no-plugins"
-export MUSIC_PLAYER="rhythmbox"
-export VIDEO_PLAYER="mpv"
-export TORRENT_CLIENT="transmission-gtk"
-export DOCUMENT_EDITOR="libreoffice --writer"
-export SPREADSHEET_EDITOR="libreoffice --calc"
-export PRESENTATION_EDITOR="libreoffice --impress"
 
 PACKAGE_MANAGERS=(synaptic gpk-application)
 
