@@ -47,10 +47,6 @@
 [end]
 	[exec] (Wallpaper)	{nitrogen}
 	[workspaces] (Workspace List) 
-[submenu] (Window Managers)
-	[restart] (metacity) {metacity} 
-	[restart] (gnome) {gnome-session} 
-[end]
 	[commanddialog] (Fluxbox Command) 
 	[reconfig] (Reload config) 
 	[restart] (Restart) 
