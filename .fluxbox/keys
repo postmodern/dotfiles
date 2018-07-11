@@ -141,16 +141,16 @@ Shift Control Mod1 p :Exec $TERMINAL --role=HUD --title=PHP -- $PHP_SHELL
 # open a Ruby console
 Control Mod1 i :Exec $TERMINAL --role=HUD --title=Ruby -- $RUBY_SHELL
 
-# open a terminal
+# open a terminal window
 Control Mod1 t :Exec $TERMINAL
 
-# open a new GVim instance
+# open a new GUI editor window
 Control Mod1 e :Exec $GUI_EDITOR
 
-# open a new Firefox instance
+# open a new browser window
 Control Mod1 b :Exec $BROWSER
 
-# open a new instance of nautilus
+# open a new file manager window
 Control Mod1 f :Exec $FILE_MANAGER
 
 # lock the screen
