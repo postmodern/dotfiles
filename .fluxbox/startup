@@ -47,8 +47,8 @@ export PRESENTATION_EDITOR="libreoffice --impress"
 fluxbox &
 fbpid=$!
 
-if   command -v compton  then compton &
-elif command -v xcompmgr then xcompmgr -c &
+if   command -v compton;  then compton &
+elif command -v xcompmgr; then xcompmgr -c &
 fi
 command -v nitrogen && (nitrogen --restore &)
 command -v conky    && (conky &)
