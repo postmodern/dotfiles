@@ -324,3 +324,9 @@ ${offset 240}${color}Up: ${color }${upspeed ens3} k/s
 ${offset 240}${upspeedgraph ens3 20,130 000000 ffffff}
 ${offset 240}${color}Down: ${color }${downspeed ens3}k/s${color}
 ${offset 240}${downspeedgraph ens3 20,130 000000 ffffff}
+
+# ${offset 240}${color slate grey}WIFI: 
+# ${offset 240}${color}Up: ${color }${upspeed wlp2s0} k/s
+# ${offset 240}${upspeedgraph wlp2s0 20,130 000000 ffffff}
+# ${offset 240}${color}Down: ${color }${downspeed wlp2s0}k/s${color}
+# ${offset 240}${downspeedgraph wlp2s0 20,130 000000 ffffff}
