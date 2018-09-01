@@ -316,14 +316,8 @@ ${offset 240}${swapbar 3,100}
 
 ${offset 240}${color slate grey}/    ${color }${fs_free /}/${fs_size /}
 ${offset 240}${fs_bar 3,100 /}
-${offset 240}${color slate grey}/home  ${color }${fs_free /home}/${fs_size /home}
-${offset 240}${fs_bar 3,100 /home}
-${offset 240}${color slate grey}/tmp ${color }${fs_free /tmp}/${fs_size /tmp}
-${offset 240}${fs_bar 3,100 /tmp}
-${offset 240}${color slate grey}/var ${color }${fs_free /var}/${fs_size /var}
-${offset 240}${fs_bar 3,100 /var}
-${offset 240}${color slate grey}/var/tmp ${color }${fs_free /var/tmp}/${fs_size /var/tmp}
-${offset 240}${fs_bar 3,100 /var/tmp}
+# ${offset 240}${color slate grey}/home  ${color }${fs_free /home}/${fs_size /home}
+# ${offset 240}${fs_bar 3,100 /home}
 
 ${offset 240}${color slate grey}em1: 
 ${offset 240}${color}Up: ${color }${upspeed em1} k/s
