@@ -302,7 +302,7 @@ override_utf8_locale no
 # stuff after 'TEXT' will be formatted on screen
 
 TEXT
-${offset 240}${color slate grey}${time %a, } ${color }${time %e %B %G}
+${offset 240}${color slate grey}DATE:   ${color}${time %d / %m / %Y}
 ${offset 240}${color slate grey}UPTIME: ${color }$uptime
 ${offset 240}${color slate grey}CPU:${color } $cpu% ${acpitemp}C
 ${offset 240}${cpugraph 20,130 000000 ffffff}
