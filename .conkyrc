@@ -311,8 +311,8 @@ ${offset 240}${diskiograph 20,130 000000 ffffff}
 
 ${offset 240}${color slate grey}MEM:  ${color } $memperc% $mem/$memmax
 ${offset 240}${membar 3,100}
-${offset 240}${color slate grey}SWAP: ${color }$swapperc% $swap/$swapmax
-${offset 240}${swapbar 3,100}
+# ${offset 240}${color slate grey}SWAP: ${color }$swapperc% $swap/$swapmax
+# ${offset 240}${swapbar 3,100}
 
 ${offset 240}${color slate grey}/    ${color }${fs_free /}/${fs_size /}
 ${offset 240}${fs_bar 3,100 /}
