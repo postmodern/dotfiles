@@ -30,7 +30,7 @@ xrandr -s 1920x1080
 
 # Applications ENV variables
 export TERMINAL="gnome-terminal"
-export FILE_MANAGER="nautilus --no-desktop"
+export FILE_MANAGER="nautilus -w"
 export GUI_EDITOR="gvim"
 export BROWSER="chromium-browser"
 export EMAIL_CLIENT="evolution"
