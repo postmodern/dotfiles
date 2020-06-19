@@ -23,7 +23,7 @@ for program in ${PACKAGE_MANAGERS[*]}; do
 done
 
 # Shell ENV variables
-export PYTHON_SHELL="python"
+export PYTHON_SHELL="python3"
 export PHP_SHELL="php -a"
 export JS_SHELL="js"
 export RUBY_SHELL="irb"
