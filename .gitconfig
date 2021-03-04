@@ -13,6 +13,7 @@
 	amend = commit -a --amend
 	clear = reset --hard HEAD
 	changelog = !sh -c 'git log $(git tag | tail -n 1)..HEAD'
+	authors = !sh -c 'git log --format=\"%aN <%aE>\" | sort -u'
 	sed = !sh -c 'git ls-files -z $2 | xargs -0 sed -i -e \"$1\"' -
 [push]
 	default = matching
