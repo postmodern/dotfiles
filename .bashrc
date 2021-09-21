@@ -34,3 +34,26 @@ alias stlink-openocd="openocd -f board/stm32f429discovery.cfg"
 alias openocd-telnet="telnet localhost 4444"
 alias openocd-gdb='arm-none-eabi-gdb -ex "tar ext :3333"'
 alias st-gdb='arm-none-eabi-gdb -ex "tar ext :4242"'
+
+# Ruby Aliases
+alias be='bundle exec'
+
+function __bundle_exec()
+{
+	local dir="$PWD/"
+
+	until [[ -z "$dir" ]]; do
+		dir="${dir%/*}"
+
+		if [[ -f "$dir/Gemfile" ]]; then
+			bundle exec $@
+			return $?
+		fi
+	done
+
+	command $@
+	return $?
+}
+
+alias rake='__bundle_exec rake'
+alias rspec='__bundle_exec rspec'
