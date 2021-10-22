@@ -55,5 +55,6 @@ function __bundle_exec()
 	return $?
 }
 
-alias rake='__bundle_exec rake'
-alias rspec='__bundle_exec rspec'
+for cmd in rake rspec yard yard-spellcheck dead_end; do
+	alias $cmd="__bundle_exec $cmd"
+done
