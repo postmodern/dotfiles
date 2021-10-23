@@ -35,6 +35,12 @@ alias openocd-telnet="telnet localhost 4444"
 alias openocd-gdb='arm-none-eabi-gdb -ex "tar ext :3333"'
 alias st-gdb='arm-none-eabi-gdb -ex "tar ext :4242"'
 
+if [[ -f /etc/fedora-release ]] || [[ -f /etc/redhat-version ]]; then
+	alias update='sudo dnf update --enablerepo=updates-testing --security'
+elif [[ -f /etc/debian_version ]]; then
+	alias update='sudo apt update && apt list --upgradeable && sudo unattended-upgrade'
+fi
+
 # Ruby Aliases
 alias be='bundle exec'
 
