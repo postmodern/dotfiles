@@ -303,18 +303,18 @@ override_utf8_locale no
 
 TEXT
 ${offset 240}${color slate grey}DATE:   ${color}${time %d / %m / %Y}
-${offset 240}${color slate grey}UPTIME: ${color }$uptime
-${offset 240}${color slate grey}CPU:${color } $cpu% ${acpitemp}C
+${offset 240}${color slate grey}UPTIME: ${color}$uptime
+${offset 240}${color slate grey}CPU: ${color}$cpu% ${acpitemp}C
 ${offset 240}${cpugraph 20,130 000000 ffffff}
-${offset 240}${color slate grey}DISK: ${color} $diskio
+${offset 240}${color slate grey}DISK: ${color}$diskio
 ${offset 240}${diskiograph 20,130 000000 ffffff}
 
-${offset 240}${color slate grey}MEM:  ${color } $memperc% $mem/$memmax
+${offset 240}${color slate grey}MEM:  ${color}$memperc% $mem/$memmax
 ${offset 240}${membar 3,100}
 # ${offset 240}${color slate grey}SWAP: ${color }$swapperc% $swap/$swapmax
 # ${offset 240}${swapbar 3,100}
 
-${offset 240}${color slate grey}/    ${color }${fs_free /}/${fs_size /}
+${offset 240}${color slate grey}/    ${color}${fs_free /}/${fs_size /}
 ${offset 240}${fs_bar 3,100 /}
 # ${offset 240}${color slate grey}/home  ${color }${fs_free /home}/${fs_size /home}
 # ${offset 240}${fs_bar 3,100 /home}
