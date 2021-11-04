@@ -1,3 +1,0 @@
-%w[multi_line auto_indent color_result shell_commands].each do |plugin|
-  begin; require "ripl/#{plugin}"; rescue LoadError; end
-end
