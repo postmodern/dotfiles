@@ -32,7 +32,7 @@ xrandr -s 1920x1080
 export TERMINAL="gnome-terminal"
 export FILE_MANAGER="nautilus -w"
 export GUI_EDITOR="gvim"
-export BROWSER="chromium-browser"
+export BROWSER="google-chrome"
 export EMAIL_CLIENT="evolution"
 export IM_CLIENT="pidgin"
 export IRC_CLIENT="hexchat --no-plugins"
