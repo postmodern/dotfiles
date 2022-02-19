@@ -15,5 +15,6 @@
 	changelog = !sh -c 'git log $(git tag | tail -n 1)..HEAD'
 	authors = !sh -c 'git log --format=\"%aN <%aE>\" -- $1 | sort -u' -
 	sed = !sh -c 'git ls-files -z $2 | xargs -0 sed -i -e \"$1\"' -
+	grep-edit = !sh -c '${GUI_EDITOR:-$EDITOR} $(git grep \"$1\" | cut -d: -f1 | sort -u)' -
 [push]
 	default = matching
