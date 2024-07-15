@@ -52,12 +52,12 @@ function __bundle_exec()
 		dir="${dir%/*}"
 
 		if [[ -f "$dir/Gemfile" ]]; then
-			bundle exec $@
+			bundle exec "$@"
 			return $?
 		fi
 	done
 
-	command $@
+	command "$@"
 	return $?
 }
 
