@@ -22,12 +22,6 @@ for program in ${PACKAGE_MANAGERS[*]}; do
 	fi
 done
 
-# Shell ENV variables
-export PYTHON_SHELL="python3"
-export PHP_SHELL="php -a"
-export JS_SHELL="js"
-export RUBY_SHELL="irb"
-
 # Aliases
 alias forget='ssh-add -D; pkill -HUP gpg-agent'
 alias stlink-openocd="openocd -f board/stm32f429discovery.cfg"
