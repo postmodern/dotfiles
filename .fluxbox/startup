@@ -45,6 +45,7 @@ export PRESENTATION_EDITOR="libreoffice --impress"
 export PYTHON_SHELL="python3"
 export PHP_SHELL="php -a"
 export JS_SHELL="js"
+export NODE_SHELL="node"
 export RUBY_SHELL="irb"
 
 # Start FluxBox

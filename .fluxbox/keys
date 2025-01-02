@@ -132,6 +132,9 @@ Control Mod1 r :Exec fbrun -bg black -fg gray -w 400 -h 20
 # open a JavaScript console
 Control Mod1 j :Exec $TERMINAL --role=HUD --title=JavaScript -- $JS_SHELL
 
+# open a Node.js console
+Control Mod1 n :Exec $TERMINAL --role=HUD --title=Node.js -- $NODE_SHELL
+
 # open a Python console
 Control Mod1 p :Exec $TERMINAL --role=HUD --title=Python -- $PYTHON_SHELL
 
