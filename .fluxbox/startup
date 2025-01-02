@@ -48,7 +48,7 @@ fluxbox &
 fbpid=$!
 
 if   command -v compton;  then compton &
-elif command -v xcompmgr; then xcompmgr -c &
+elif command -v xcompmgr; then xcompmgr &
 fi
 command -v nitrogen && (nitrogen --restore &)
 command -v conky    && (conky &)
