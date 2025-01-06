@@ -52,8 +52,7 @@
  [app] (class=[GgKk]vim)
  [app] (class=[Xx]emacs)
  [app] (class=[Gg]edit)
-  [Dimensions]	{692 750}
-  [Position]	(UPPERRIGHT)	{0 0}
+  [Position]	(CENTER)	{0 0}
   [Maximized]	{vert}
 [end]
 [group]  (workspace=[current])
